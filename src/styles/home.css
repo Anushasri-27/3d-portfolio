@@ -1,0 +1,36 @@
+.homeWrap{
+    display:inline-block;
+    cursor: none;
+}
+
+.conatiner-home{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.conatiner-home h1{
+     position: relative;
+     left: 480px;
+    font-family: "Monument";
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+   
+}
+
+.home-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 0, 0.884);
+}

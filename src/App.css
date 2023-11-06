@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:#161616;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor:none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  position: absolute;
   display: flex;
-  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header .logo{
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Neutral Face";
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header ul{
+  list-style: none;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.header ul li .link{
+  font-size: 20px;
+  font-family: 'Neutral Face';
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: none;
+  line-height: 10px;
+}
+
+.header ul li .link:active{
+  color: green;
+
+}
+
+.header ul li .link:hover{
+ 
+   color: blueviolet;
+   font-size: 25px;
+}
+
+.a:hover{
+  color: blueviolet;
+  font-size: 45px;
+  line-height: 10px;
+}
+.n:hover{
+  color: rgb(43, 208, 226);
+  font-size: 45px;
+  line-height: 10px;
+}
+.u:hover{
+  color: rgb(214, 226, 43);
+  font-size: 45px;
+  line-height: 10px;
+}
+.s:hover{
+  color: rgb(46, 226, 43);
+  font-size: 45px;
+  line-height: 10px;
+}
+.h:hover{
+  color: rgb(226, 153, 43);
+  font-size: 45px;
+  line-height: 10px;
 }

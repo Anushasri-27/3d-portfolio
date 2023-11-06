@@ -1,0 +1,71 @@
+.title {
+    font-family: Prata;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 10vw;
+    color: #333;
+    font-weight: 200;
+}
+
+.con{
+    height: 100vh;
+    width: 100vw;
+}
+
+.h1 {
+    font-size: 2.8rem;
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.img {
+    box-shadow: 6px 1px 20px rgb(100, 100, 100, 0.3);
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    margin-top: 4%;
+    transform: perspective(1000px) rotateY(-25deg);
+     cursor:crosshair;
+}
+
+
+
+#img1 {
+    background-color: aliceblue;
+    border-radius: 26px;
+    background-image: url('../COMPONENTS/image/linkedin.png');
+    background-size: contain;
+    left: 20%;
+    z-index: 5
+}
+
+#img2 {
+    background-color: rgb(26, 121, 90);
+    background-color: aliceblue;
+    border-radius: 43px;
+    background-image: url('../COMPONENTS/image/github.png');
+    background-size: contain;
+    left: 30%;
+    z-index: 4
+}
+
+#img3 {
+    background-color: rgb(254, 192, 255);
+    background-color: aliceblue;
+    border-radius: 80px;
+    background-image: url('../COMPONENTS/image/instagram.png');
+    background-size: contain;
+    left: 40%;
+    z-index: 3
+}
+
+#img4 {
+    background-color: tomato;
+    background-color: aliceblue;
+    border-radius: 39px;
+    background-image: url('../COMPONENTS/image/facebook.png');
+    background-size: contain;
+    left: 50%;
+    z-index: 2
+}
