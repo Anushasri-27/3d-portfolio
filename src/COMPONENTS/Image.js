@@ -25,12 +25,11 @@ const Image = ({ timeline, ease }) => {
       }
     );
     timeline.fromTo(
-      [ img2],
+      [img2],
       1,
       {
         opacity: 0,
-        delay: 9,
-        y: "200",
+        y: "-200",
         skewY: 10,
         stagger: {
           amount: 0.8,
